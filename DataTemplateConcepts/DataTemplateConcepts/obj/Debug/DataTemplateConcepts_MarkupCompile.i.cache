@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-\\10.4.0.145\Repete\Tejas\WPF\CodeSamples\DataTemplateConcepts\DataTemplateConcepts\obj\Debug\
+E:\GitRepository\WPFProjects\DataTemplateConcepts\DataTemplateConcepts\obj\Debug\
 DataTemplateConcepts
 none
 false
 DEBUG;TRACE
-\\10.4.0.145\Repete\Tejas\WPF\CodeSamples\DataTemplateConcepts\DataTemplateConcepts\App.xaml
+E:\GitRepository\WPFProjects\DataTemplateConcepts\DataTemplateConcepts\App.xaml
 61804404900
 6152210311
 12618950504
-14-58889496
+14-237747816
 CheckboxList.xaml;ListBoxAdvancedDataTemplate.xaml;ListBoxLayout.xaml;ListBoxStyle.xaml;Menu.xaml;RadioButtonListBox.xaml;
 
 True
