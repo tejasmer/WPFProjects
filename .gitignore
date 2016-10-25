@@ -1,0 +1,15 @@
+*.exe
+
+*.pdb
+*.pdb
+*.pdb
+
+**/bin/Debug/
+**/bin/Release/
+*.pdb
+*.cache
+*.cache
+*.cache
+*.cache
+*.exe
+*.suo
