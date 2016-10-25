@@ -1,0 +1,40 @@
+D:\Code\Pro WPF\StoreDatabase\bin\Debug\store.xsd
+D:\Code\Pro WPF\StoreDatabase\bin\Debug\store.xml
+D:\Code\Pro WPF\StoreDatabase\bin\Debug\StoreDatabase.dll.config
+D:\Code\Pro WPF\StoreDatabase\bin\Debug\StoreDatabase.dll
+D:\Code\Pro WPF\StoreDatabase\bin\Debug\StoreDatabase.pdb
+D:\Code\Pro WPF\StoreDatabase\obj\Debug\StoreDatabase.dll
+D:\Code\Pro WPF\StoreDatabase\obj\Debug\StoreDatabase.pdb
+D:\Code\Pro WPF\StoreDatabase\obj\Debug\StoreDatabase.csprojResolveAssemblyReference.cache
+E:\Tejas\Self-Learning\CodingPractice\WPF\Pro WPF 4.5 in C#\StoreDatabase\bin\Debug\store.xsd
+E:\Tejas\Self-Learning\CodingPractice\WPF\Pro WPF 4.5 in C#\StoreDatabase\bin\Debug\store.xml
+E:\Tejas\Self-Learning\CodingPractice\WPF\Pro WPF 4.5 in C#\StoreDatabase\bin\Debug\StoreDatabase.dll.config
+E:\Tejas\Self-Learning\CodingPractice\WPF\Pro WPF 4.5 in C#\StoreDatabase\bin\Debug\StoreDatabase.dll
+E:\Tejas\Self-Learning\CodingPractice\WPF\Pro WPF 4.5 in C#\StoreDatabase\bin\Debug\StoreDatabase.pdb
+E:\Tejas\Self-Learning\CodingPractice\WPF\Pro WPF 4.5 in C#\StoreDatabase\obj\Debug\StoreDatabase.csprojResolveAssemblyReference.cache
+E:\Tejas\Self-Learning\CodingPractice\WPF\Pro WPF 4.5 in C#\StoreDatabase\obj\Debug\StoreDatabase.dll
+E:\Tejas\Self-Learning\CodingPractice\WPF\Pro WPF 4.5 in C#\StoreDatabase\obj\Debug\StoreDatabase.pdb
+E:\Tejas\Self-Learning\CodingPractice\WPF\StoreDatabase\bin\Debug\store.xsd
+E:\Tejas\Self-Learning\CodingPractice\WPF\StoreDatabase\bin\Debug\store.xml
+E:\Tejas\Self-Learning\CodingPractice\WPF\StoreDatabase\bin\Debug\StoreDatabase.dll.config
+E:\Tejas\Self-Learning\CodingPractice\WPF\StoreDatabase\bin\Debug\StoreDatabase.dll
+E:\Tejas\Self-Learning\CodingPractice\WPF\StoreDatabase\bin\Debug\StoreDatabase.pdb
+E:\Tejas\Self-Learning\CodingPractice\WPF\StoreDatabase\obj\Debug\StoreDatabase.dll
+E:\Tejas\Self-Learning\CodingPractice\WPF\StoreDatabase\obj\Debug\StoreDatabase.pdb
+E:\Tejas\Self-Learning\CodingPractice\WPF\StoreDatabase\obj\Debug\StoreDatabase.csprojResolveAssemblyReference.cache
+\\10.4.0.145\Repete\Tejas\WPF\CodeSamples\StoreDatabase\bin\Debug\store.xsd
+\\10.4.0.145\Repete\Tejas\WPF\CodeSamples\StoreDatabase\bin\Debug\store.xml
+\\10.4.0.145\Repete\Tejas\WPF\CodeSamples\StoreDatabase\bin\Debug\StoreDatabase.dll.config
+\\10.4.0.145\Repete\Tejas\WPF\CodeSamples\StoreDatabase\bin\Debug\StoreDatabase.dll
+\\10.4.0.145\Repete\Tejas\WPF\CodeSamples\StoreDatabase\bin\Debug\StoreDatabase.pdb
+\\10.4.0.145\Repete\Tejas\WPF\CodeSamples\StoreDatabase\obj\Debug\StoreDatabase.csprojResolveAssemblyReference.cache
+\\10.4.0.145\Repete\Tejas\WPF\CodeSamples\StoreDatabase\obj\Debug\StoreDatabase.dll
+\\10.4.0.145\Repete\Tejas\WPF\CodeSamples\StoreDatabase\obj\Debug\StoreDatabase.pdb
+Z:\Tejas\WPF\CodeSamples\StoreDatabase\bin\Debug\store.xsd
+Z:\Tejas\WPF\CodeSamples\StoreDatabase\bin\Debug\store.xml
+Z:\Tejas\WPF\CodeSamples\StoreDatabase\bin\Debug\StoreDatabase.dll.config
+Z:\Tejas\WPF\CodeSamples\StoreDatabase\bin\Debug\StoreDatabase.dll
+Z:\Tejas\WPF\CodeSamples\StoreDatabase\bin\Debug\StoreDatabase.pdb
+Z:\Tejas\WPF\CodeSamples\StoreDatabase\obj\Debug\ResolveAssemblyReference.cache
+Z:\Tejas\WPF\CodeSamples\StoreDatabase\obj\Debug\StoreDatabase.dll
+Z:\Tejas\WPF\CodeSamples\StoreDatabase\obj\Debug\StoreDatabase.pdb

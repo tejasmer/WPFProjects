@@ -1,0 +1,26 @@
+﻿<Window x:Class="ControlTemplateConcepts.ControlTemplateDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ControlTemplateConcepts"
+        mc:Ignorable="d"
+        Title="ControlTemplate Demo Button Customized" Height="300" Width="300">
+    <StackPanel>
+        <Button Click="Button_Click">
+            <TextBlock TextWrapping="Wrap">
+            Buttom Templates (Only Look and Feel has beeen changed)
+            </TextBlock>
+        </Button>
+        <Button Click="Button_Click_1" >
+            <TextBlock TextWrapping="Wrap">Buttom Templates using Resource Dictionary 
+                (Only Look and Feel has beeen changed)
+            </TextBlock></Button>
+
+        <Button Click="Button_Click_2">
+            <TextBlock TextWrapping="Wrap">
+            Buttom Templates (Shape has been changed)
+            </TextBlock>
+        </Button>
+    </StackPanel>
+</Window>

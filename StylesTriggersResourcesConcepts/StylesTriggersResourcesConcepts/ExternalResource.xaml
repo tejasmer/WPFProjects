@@ -1,0 +1,32 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:StylesTriggersResourcesConcepts">
+    <Style x:Key="ButtonStyleInResource">
+        <Setter Property="Button.FontFamily" Value="Verdana"></Setter>
+        <Setter Property="Button.FontSize" Value="18"></Setter>
+        <Setter Property="Button.FontStyle" Value="Italic"></Setter>
+        <Setter Property="Button.FontWeight" Value="Bold"></Setter>
+        <Setter Property="Button.Margin" Value="3"></Setter>
+        <Setter Property="Button.Padding" Value="3"></Setter>
+        <Setter Property="Button.Foreground" Value="Blue"></Setter>
+        <Style.Triggers>
+            <Trigger Property="Button.IsMouseOver" Value="True">
+                <Setter Property="Button.Foreground" Value="Green"></Setter>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="TextBlockStyleInResource">
+        <Setter Property="TextBlock.FontFamily" Value="Verdana"></Setter>
+        <Setter Property="TextBlock.FontSize" Value="18"></Setter>
+        <Setter Property="TextBlock.FontStretch" Value="Medium"></Setter>
+        <Setter Property="TextBlock.FontStyle" Value="Italic"></Setter>
+        <Setter Property="TextBlock.FontWeight" Value="Heavy"></Setter>
+        <Setter Property="TextBlock.Margin" Value="3"></Setter>
+        <Setter Property="TextBlock.Padding" Value="3"></Setter>
+        <Style.Triggers>
+            <Trigger Property="Button.IsMouseOver" Value="True">
+                <Setter Property="Button.Foreground" Value="Green"></Setter>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+</ResourceDictionary>

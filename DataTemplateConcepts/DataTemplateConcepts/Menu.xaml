@@ -1,0 +1,41 @@
+﻿<Window x:Class="DataTemplateConcepts.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataTemplateConcepts"
+        mc:Ignorable="d"
+        Title="Menu" Height="350" Width="525">
+    <Grid>
+        <StackPanel Margin="5" Button.Click="ButtonClick" >
+            <Button Tag="ListBoxStyle">
+                <TextBlock TextWrapping="Wrap" FontSize="18" >
+                   ListBox Style (ItemContainerStyle) Demo, Alternate Item is styled with different color. Selected Item is highlighted.
+                    Selected Item is bound with Grid.
+                </TextBlock></Button>
+
+            <Button Tag="CheckboxList">
+                <TextBlock TextWrapping="Wrap" FontSize="18" >
+                  ListBox Style Template has been modified to show Checkbox List.
+                </TextBlock>
+            </Button>
+            <Button Tag="RadioButtonListBox">
+                <TextBlock TextWrapping="Wrap" FontSize="18" >
+                  ListBox Style Template has been modified to show Radiobutton List.
+                </TextBlock>
+            </Button>
+            <Button Tag="ListBoxAdvancedDataTemplate">
+                <TextBlock TextWrapping="Wrap" FontSize="18" >
+                  ListBox With Data Template
+                </TextBlock>
+            </Button>
+            <Button Tag="ListBoxLayout">
+                <TextBlock TextWrapping="Wrap" FontSize="18" >
+                  ListBox With Custom Layout using Panel Data Template
+                </TextBlock>
+            </Button>
+            
+        </StackPanel>
+    </Grid>
+    
+</Window>

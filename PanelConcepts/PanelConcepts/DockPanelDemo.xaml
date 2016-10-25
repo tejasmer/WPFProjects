@@ -1,0 +1,55 @@
+﻿<Window x:Class="PanelConcepts.DockPanelDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PanelConcepts"
+        mc:Ignorable="d"
+        Title="DockPanelDemo" Height="400" Width="300" FontFamily="Arial" FontSize="12">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+    <DockPanel LastChildFill="True" Grid.Row="0" Background="Yellow">
+        <Button DockPanel.Dock="Top" HorizontalAlignment="Left" BorderThickness="10" BorderBrush="Red">Button At Left Top</Button>
+        <Button DockPanel.Dock="Top" HorizontalAlignment="Center" BorderThickness="10" BorderBrush="Red">Button At Center Top</Button>
+        <Button DockPanel.Dock="Top" HorizontalAlignment="Right" BorderThickness="10" BorderBrush="Red">Button At Right Top</Button>
+
+        <Button DockPanel.Dock="Bottom" HorizontalAlignment="Left" BorderThickness="3" BorderBrush="Green">Button At Left Bottom</Button>
+        <Button DockPanel.Dock="Bottom" HorizontalAlignment="Center" BorderThickness="3" BorderBrush="Green">Button At Center Bottom</Button>
+        <Button DockPanel.Dock="Bottom" HorizontalAlignment="Right" BorderThickness="3" BorderBrush="Green">Button At Right Bottom</Button>
+
+
+        <Button DockPanel.Dock="Left" VerticalAlignment="Top" BorderThickness="2" BorderBrush="Blue">Left Top</Button>
+        <Button DockPanel.Dock="Right" VerticalAlignment="Bottom" BorderThickness="2" BorderBrush="Blue">Right Bottom</Button>
+
+        <Button>
+            <TextBlock TextWrapping="Wrap">
+                UnDocked with Last Child as Fill
+            </TextBlock>
+        </Button>
+
+    </DockPanel>
+        <DockPanel LastChildFill="True" Grid.Row="2" Background="Green">
+            <Button DockPanel.Dock="Top"  BorderThickness="10" BorderBrush="Red">Button At Top</Button>
+            <Button DockPanel.Dock="Top"  BorderThickness="10" BorderBrush="Red">Button At Top</Button>
+            <Button DockPanel.Dock="Top"  BorderThickness="10" BorderBrush="Red">Button At Top</Button>
+
+            <Button DockPanel.Dock="Bottom"  BorderThickness="3" BorderBrush="Green">Button At Left Bottom</Button>
+            <Button DockPanel.Dock="Bottom"  BorderThickness="3" BorderBrush="Green">Button At Center Bottom</Button>
+            <Button DockPanel.Dock="Bottom"  BorderThickness="3" BorderBrush="Green">Button At Right Bottom</Button>
+
+            <Button DockPanel.Dock="Left"  BorderThickness="2" BorderBrush="Blue">Left </Button>
+            <Button DockPanel.Dock="Right"  BorderThickness="2" BorderBrush="Blue">Right</Button>
+            <Button>
+                <TextBlock TextWrapping="Wrap">
+                UnDocked with Last Child as Fill
+                </TextBlock>
+            </Button>
+
+        </DockPanel>
+    </Grid>
+</Window>

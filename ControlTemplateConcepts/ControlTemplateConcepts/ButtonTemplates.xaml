@@ -1,0 +1,91 @@
+﻿<Window x:Class="ControlTemplateConcepts.ButtonTemplates"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ControlTemplateConcepts"
+        mc:Ignorable="d"
+        Title="ButtonTemplates (CustomTemplate is defined in Resources of Window)" Height="350" Width="525">
+    <Window.Resources>
+        <ControlTemplate x:Key="ButtonTemplate" TargetType="{x:Type Button}">
+            <Border BorderBrush="Orange" BorderThickness="3" CornerRadius="2" Background="Red" TextBlock.Foreground="White">
+                <ContentPresenter RecognizesAccessKey="True" Margin="{TemplateBinding Padding}">
+                </ContentPresenter>
+            </Border>
+        </ControlTemplate>
+        <ControlTemplate x:Key="ButtonTemplateWithTrigger" TargetType="{x:Type Button}">
+            <Border Name="Border" BorderBrush="Orange" BorderThickness="3" CornerRadius="2" Background="Red" TextBlock.Foreground="White">
+                <ContentPresenter RecognizesAccessKey="True" Margin="{TemplateBinding Padding}"></ContentPresenter>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter TargetName="Border" Property="Background" Value="DarkRed" />
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter TargetName="Border" Property="Background" Value="IndianRed" />
+                    <Setter TargetName="Border" Property="BorderBrush" Value="DarkKhaki" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <ControlTemplate x:Key="ButtonTemplateWithKeyBoardFocused" TargetType="{x:Type Button}">
+            <Border Name="Border" BorderBrush="Orange" BorderThickness="3" CornerRadius="2" Background="Red" TextBlock.Foreground="White">
+                <Grid>
+                    <Rectangle Name="FocusCue" Visibility="Hidden" Stroke="Black" StrokeThickness="5" StrokeDashArray="1 2" SnapsToDevicePixels="True"></Rectangle>
+                    <ContentPresenter RecognizesAccessKey="True" Margin="{TemplateBinding Padding}"></ContentPresenter>
+                </Grid>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter TargetName="Border" Property="Background" Value="DarkRed" />
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter TargetName="Border" Property="Background" Value="IndianRed" />
+                    <Setter TargetName="Border" Property="BorderBrush" Value="DarkKhaki" />
+                </Trigger>
+                <Trigger Property="IsKeyboardFocused" Value="True">
+                    <Setter TargetName="FocusCue" Property="Visibility" Value="Visible" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <ControlTemplate x:Key="ButtonTemplateWithAnnimation" TargetType="{x:Type Button}">
+            <Border BorderBrush="Orange" BorderThickness="3" CornerRadius="2" Background="Red" TextBlock.Foreground="White" Name="Border">
+                <Grid>
+                    <Rectangle Name="FocusCue" Visibility="Hidden" Stroke="Black" StrokeThickness="1" StrokeDashArray="1 2" SnapsToDevicePixels="True" ></Rectangle>
+                    <ContentPresenter RecognizesAccessKey="True" Margin="{TemplateBinding Padding}"></ContentPresenter>
+                </Grid>
+            </Border>
+            <ControlTemplate.Triggers>
+                <EventTrigger RoutedEvent="MouseEnter">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <ColorAnimation Storyboard.TargetName="Border" Storyboard.TargetProperty="Background.Color" To="Blue" Duration="0:0:1" AutoReverse="True" RepeatBehavior="Forever"></ColorAnimation>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+                <EventTrigger RoutedEvent="MouseLeave">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <ColorAnimation Storyboard.TargetName="Border" Storyboard.TargetProperty="Background.Color" Duration="0:0:0.5"></ColorAnimation>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition ></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition ></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="test" Grid.Row="0"  Template="{StaticResource ButtonTemplate}" Padding="2" Margin="2" FontFamily="Arial" FontSize="14">Simple Button with CustomTemplate, not much impressive if you click.</Button>
+        <Button x:Name="test2" Grid.Row="1" Template="{StaticResource ButtonTemplateWithTrigger}" Padding="2" Margin="2" FontFamily="Arial" FontSize="12">Custom Template and Triggers (Move Mouse Over Me and Press to see effect)
+        </Button>
+        <Button  Grid.Row="2" Template="{StaticResource ButtonTemplateWithKeyBoardFocused}" Padding="2" Margin="2" FontFamily="Arial"  FontSize="14">Keyboard Focused Custom Template and Triggers (Try to bring focus using tab)</Button>
+        <Button  Grid.Row="3" Template="{StaticResource ButtonTemplateWithAnnimation}" Padding="2" Margin="2" FontFamily="Arial"  FontSize="14">Button with Annimated CustomTemplate Just keep mouse over Me.</Button>
+    </Grid>
+</Window>

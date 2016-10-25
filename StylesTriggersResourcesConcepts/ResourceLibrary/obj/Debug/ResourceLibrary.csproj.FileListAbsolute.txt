@@ -1,0 +1,47 @@
+E:\Tejas\Self-Learning\CodingPractice\WPF\Pro WPF 4.5 in C#\Chapter10\Resources\ResourceLibrary\bin\Debug\ResourceLibrary.dll
+E:\Tejas\Self-Learning\CodingPractice\WPF\Pro WPF 4.5 in C#\Chapter10\Resources\ResourceLibrary\bin\Debug\ResourceLibrary.pdb
+E:\Tejas\Self-Learning\CodingPractice\WPF\Pro WPF 4.5 in C#\Chapter10\Resources\ResourceLibrary\obj\Debug\ResourceLibrary.csprojResolveAssemblyReference.cache
+E:\Tejas\Self-Learning\CodingPractice\WPF\Pro WPF 4.5 in C#\Chapter10\Resources\ResourceLibrary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Tejas\Self-Learning\CodingPractice\WPF\Pro WPF 4.5 in C#\Chapter10\Resources\ResourceLibrary\obj\Debug\ResourceLibrary_MarkupCompile.cache
+E:\Tejas\Self-Learning\CodingPractice\WPF\Pro WPF 4.5 in C#\Chapter10\Resources\ResourceLibrary\obj\Debug\ResourceLibrary_MarkupCompile.lref
+E:\Tejas\Self-Learning\CodingPractice\WPF\Pro WPF 4.5 in C#\Chapter10\Resources\ResourceLibrary\obj\Debug\Themes\generic.baml
+E:\Tejas\Self-Learning\CodingPractice\WPF\Pro WPF 4.5 in C#\Chapter10\Resources\ResourceLibrary\obj\Debug\ResourceLibrary.g.resources
+E:\Tejas\Self-Learning\CodingPractice\WPF\Pro WPF 4.5 in C#\Chapter10\Resources\ResourceLibrary\obj\Debug\ResourceLibrary.Properties.Resources.resources
+E:\Tejas\Self-Learning\CodingPractice\WPF\Pro WPF 4.5 in C#\Chapter10\Resources\ResourceLibrary\obj\Debug\ResourceLibrary.csproj.GenerateResource.Cache
+E:\Tejas\Self-Learning\CodingPractice\WPF\Pro WPF 4.5 in C#\Chapter10\Resources\ResourceLibrary\obj\Debug\ResourceLibrary.dll
+E:\Tejas\Self-Learning\CodingPractice\WPF\Pro WPF 4.5 in C#\Chapter10\Resources\ResourceLibrary\obj\Debug\ResourceLibrary.pdb
+E:\Tejas\Self-Learning\CodingPractice\WPF\StylesTriggersResourcesConcepts\ResourceLibrary\bin\Debug\ResourceLibrary.dll
+E:\Tejas\Self-Learning\CodingPractice\WPF\StylesTriggersResourcesConcepts\ResourceLibrary\bin\Debug\ResourceLibrary.pdb
+E:\Tejas\Self-Learning\CodingPractice\WPF\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Tejas\Self-Learning\CodingPractice\WPF\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\ResourceLibrary_MarkupCompile.cache
+E:\Tejas\Self-Learning\CodingPractice\WPF\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\ResourceLibrary_MarkupCompile.lref
+E:\Tejas\Self-Learning\CodingPractice\WPF\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\Themes\generic.baml
+E:\Tejas\Self-Learning\CodingPractice\WPF\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\ResourceLibrary.g.resources
+E:\Tejas\Self-Learning\CodingPractice\WPF\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\ResourceLibrary.Properties.Resources.resources
+E:\Tejas\Self-Learning\CodingPractice\WPF\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\ResourceLibrary.csproj.GenerateResource.Cache
+E:\Tejas\Self-Learning\CodingPractice\WPF\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\ResourceLibrary.dll
+E:\Tejas\Self-Learning\CodingPractice\WPF\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\ResourceLibrary.pdb
+\\10.4.0.145\Repete\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\bin\Debug\ResourceLibrary.dll
+\\10.4.0.145\Repete\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\bin\Debug\ResourceLibrary.pdb
+\\10.4.0.145\Repete\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+\\10.4.0.145\Repete\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\ResourceLibrary_MarkupCompile.cache
+\\10.4.0.145\Repete\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\ResourceLibrary_MarkupCompile.lref
+\\10.4.0.145\Repete\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\Themes\generic.baml
+\\10.4.0.145\Repete\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\ResourceLibrary.g.resources
+\\10.4.0.145\Repete\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\ResourceLibrary.Properties.Resources.resources
+\\10.4.0.145\Repete\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\ResourceLibrary.csproj.GenerateResource.Cache
+\\10.4.0.145\Repete\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\ResourceLibrary.dll
+\\10.4.0.145\Repete\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\ResourceLibrary.pdb
+Z:\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\bin\Debug\ResourceLibrary.dll
+Z:\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\bin\Debug\ResourceLibrary.pdb
+Z:\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\ResolveAssemblyReference.cache
+Z:\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+Z:\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\ResourceLibrary_MarkupCompile.cache
+Z:\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\ResourceLibrary_MarkupCompile.lref
+Z:\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\Themes\generic.baml
+Z:\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\ResourceLibrary.g.resources
+Z:\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\ResourceLibrary.Properties.Resources.resources
+Z:\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\GenerateResource.read.1.tlog
+Z:\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\GenerateResource.write.1.tlog
+Z:\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\ResourceLibrary.dll
+Z:\Tejas\WPF\CodeSamples\StylesTriggersResourcesConcepts\ResourceLibrary\obj\Debug\ResourceLibrary.pdb
