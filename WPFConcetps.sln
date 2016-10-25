@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PanelConcepts", "PanelConce
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeViewBindingConcepts", "TreeViewBindingConcepts\TreeViewBindingConcepts\TreeViewBindingConcepts.csproj", "{96ED4D11-564F-491E-9EE8-5D563B6745BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMConcepts", "MVVMConcepts\MVVMConcepts\MVVMConcepts.csproj", "{793662D8-B8C7-4C66-9D5F-A1260A5A0B36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{96ED4D11-564F-491E-9EE8-5D563B6745BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96ED4D11-564F-491E-9EE8-5D563B6745BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96ED4D11-564F-491E-9EE8-5D563B6745BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{793662D8-B8C7-4C66-9D5F-A1260A5A0B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793662D8-B8C7-4C66-9D5F-A1260A5A0B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793662D8-B8C7-4C66-9D5F-A1260A5A0B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793662D8-B8C7-4C66-9D5F-A1260A5A0B36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
