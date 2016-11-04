@@ -57,10 +57,24 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CommandDemo.xaml.cs">
+      <DependentUpon>CommandDemo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommandParameterDemo.xaml.cs">
+      <DependentUpon>CommandParameterDemo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Commands\AddCommand.cs" />
     <Compile Include="Commands\InfoCommand.cs" />
     <Compile Include="Commands\NameList.cs" />
     <Compile Include="Commands\RemoveCommand.cs" />
+    <Page Include="CommandDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommandParameterDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="CustomCommandDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
