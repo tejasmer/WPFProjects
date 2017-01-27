@@ -1,0 +1,9 @@
+Best WPF Examples
+
+https://wpf.2000things.com/tag/flowdocument/
+http://www.blackwasp.co.uk/WPFTutorial.aspx
+
+
+MVVM
+
+http://geekswithblogs.net/HouseOfBilz/archive/2009/08/27/adventures-in-mvvm-ndash-binding-commands-to-any-event.aspx
